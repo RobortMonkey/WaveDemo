@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <HorizontalScrollView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50px"
+        android:paddingRight="50px" >
+
+        <com.example.wavedemo.ScrollBarPic
+            android:id="@+id/scrollBarPic"
+            android:layout_width="match_parent"
+            android:layout_height="800px" />
+    </HorizontalScrollView>
+
+</LinearLayout>

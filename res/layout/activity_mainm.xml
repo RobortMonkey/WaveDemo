@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.barpic.BarPictrue
+        android:background="#abcdef"
+        android:id="@+id/barPicture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_400"
+        android:layout_marginTop="@dimen/px2dp_150" />
+    
+
+</LinearLayout>

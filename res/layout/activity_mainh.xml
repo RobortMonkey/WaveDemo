@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.example.wavedemo.ScrollViewDragHelper
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/px2dp_42"
+        android:paddingRight="@dimen/px2dp_42" >
+<!-- 
+        <com.example.wavedemo.ScrollBarPic
+            android:id="@+id/scrollBarPic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2dp_516" /> -->
+    </com.example.wavedemo.ScrollViewDragHelper>
+
+</LinearLayout>

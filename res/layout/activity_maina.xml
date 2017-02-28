@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        >
+        <TextView 
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaa"
+            android:layout_marginTop="400px"
+            
+            />
+        <TextView 
+            android:layout_marginTop="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bbb"
+            android:layout_below="@id/textview1"
+            />
+    </RelativeLayout>
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击"
+        android:onClick="click"
+        />
+</RelativeLayout>

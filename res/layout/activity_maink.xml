@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:custom="http://schemas.android.com/apk/res/com.example.wavedemo"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+   <!--  <com.example.wavedemo.ProTopView
+        android:id="@+id/protopview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_184"
+        custom:div_="@dimen/px2dp_30"
+        custom:inheight="@dimen/px2dp_86"
+        custom:innercell="@dimen/px2dp_38"
+        custom:inwidth="@dimen/px2dp_480"
+        custom:specing="@dimen/px2dp_40"
+        custom:textsize="@dimen/px2dp_34" /> -->
+    
+    
+    <SeekBar 
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/seekbar2"
+        android:maxHeight="@dimen/px2dp_10"
+        android:minHeight="@dimen/px2dp_10"
+        />
+    <View 
+         android:layout_gravity="center_horizontal"
+        android:layout_width="919px"
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+    
+    
+    <SeekBar 
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

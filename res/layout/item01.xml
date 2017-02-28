@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_1"
+    android:layout_width="match_parent"
+    android:background="#00ffffff"
+    android:layout_height="match_parent" >
+   <ImageView 
+       android:id="@+id/iv_1_title"
+       android:layout_marginTop="@dimen/px2dp_124"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/wecome_1_3"
+       android:alpha="0"
+       />
+   <ImageView 
+       android:id="@+id/iv_1_left"
+       android:layout_width="@dimen/px2dp_382"
+       android:layout_height="@dimen/px2dp_458"
+       android:src="@drawable/wecome_1_4"
+       android:layout_marginTop="@dimen/px2dp_402"
+       android:layout_marginLeft="@dimen/px2dp_f382"
+       />
+   <ImageView 
+       android:id="@+id/iv_1_right"
+       android:layout_width="@dimen/px2dp_160"
+       android:layout_height="@dimen/px2dp_328"
+       android:src="@drawable/wecome_1_2"
+       android:layout_alignParentRight="true"
+       android:layout_alignBottom="@id/iv_1_left"
+       android:layout_marginRight="@dimen/px2dp_f160"
+       />
+   <ImageView 
+       android:id="@+id/iv_1_center"
+       android:layout_width="@dimen/px2dp_106"
+       android:layout_height="@dimen/px2dp_106"
+       android:src="@drawable/wecome_1_1"
+       android:layout_marginTop="@dimen/px2dp_297"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="@dimen/px2dp_170"
+        android:alpha="0"
+       />
+
+</RelativeLayout>

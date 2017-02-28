@@ -1,0 +1,34 @@
+<resources>
+
+    <declare-styleable name="barPic">
+        <attr name="space" format="dimension" />
+        <attr name="num" format="integer" />
+        <attr name="startpadding" format="dimension" />
+        <attr name="endpadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="dragVertical">
+        <attr name="totalHeight" format="dimension" />
+        <attr name="surplusHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="waveTextView">
+        <attr name="textSize" format="dimension" />
+        <attr name="paintWidth" format="dimension" />
+    </declare-styleable>
+
+    <attr name="inwidth" format="dimension" />
+    <attr name="inheight" format="dimension" />
+    <attr name="specing" format="dimension" />
+    <attr name="textsize" format="dimension" />
+    <attr name="div_" format="dimension" />
+    <attr name="innercell" format="dimension" />
+
+    <declare-styleable name="protopview">
+        <attr name="inwidth" />
+        <attr name="inheight" />
+        <attr name="specing" />
+        <attr name="textsize" />
+        <attr name="div_" />
+        <attr name="innercell" />
+    </declare-styleable>
+
+</resources>

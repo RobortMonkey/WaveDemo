@@ -1,0 +1,27 @@
+<com.example.wavedemo.DragVertical xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drag="http://schemas.android.com/apk/res/com.example.wavedemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    drag:surplusHeight="150px"
+    drag:totalHeight="500px" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_move"
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:background="#f14f3a" >
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_move" >
+        </ListView>
+    </RelativeLayout>
+
+</com.example.wavedemo.DragVertical>

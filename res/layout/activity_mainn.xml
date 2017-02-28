@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+   android:layout_height="@dimen/px2dp_816"
+    android:orientation="vertical" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px2dp_816"
+        />
+    <com.example.wavedemo.IndicatorView3
+        android:id="@+id/indicatorview"
+        android:layout_width="@dimen/px2dp_200"
+        android:layout_height="@dimen/px2dp_80"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px2dp_124"
+        android:alpha="0"
+        android:src="@drawable/welcome_3_6" />
+
+    <ImageView
+        android:id="@+id/iv_3_center"
+        android:layout_width="@dimen/px2dp_358"
+        android:layout_height="@dimen/px2dp_456"
+        android:layout_marginLeft="@dimen/px2dp_252"
+        android:layout_marginTop="@dimen/px2dp_402"
+        android:alpha="0"
+        android:src="@drawable/welcome_3_1" />
+
+    <ImageView
+        android:id="@+id/iv_3_line"
+        android:layout_width="@dimen/px2dp_116"
+        android:layout_height="@dimen/px2dp_278"
+        android:layout_marginLeft="@dimen/px2dp_138"
+        android:layout_marginTop="@dimen/px2dp_414"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcome_3_5" />
+
+    <ImageView
+        android:id="@+id/iv_3_first"
+        android:layout_width="@dimen/px2dp_60"
+        android:layout_height="@dimen/px2dp_60"
+        android:layout_marginLeft="@dimen/px2dp_110"
+        android:layout_marginTop="@dimen/px2dp_414"
+        android:alpha="0"
+        android:src="@drawable/welcome_3_4" />
+
+    <ImageView
+        android:id="@+id/iv_3_second"
+        android:layout_width="@dimen/px2dp_60"
+        android:layout_height="@dimen/px2dp_60"
+        android:layout_marginLeft="@dimen/px2dp_110"
+        android:layout_marginTop="@dimen/px2dp_414"
+        android:alpha="0"
+        android:src="@drawable/welcome_3_3" />
+
+    <ImageView
+        android:id="@+id/iv_3_three"
+        android:layout_height="@dimen/px2dp_60"
+         android:layout_width="@dimen/px2dp_60"
+        android:layout_marginLeft="@dimen/px2dp_110"
+        android:layout_marginTop="@dimen/px2dp_414"
+        android:alpha="0"
+        android:src="@drawable/welcome_3_2" />
+
+</RelativeLayout>
